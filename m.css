@@ -1,6 +1,9 @@
 /* custom CSS file - Steven Bloom Customer Success Manager sbloom@medallia.com */
 
-#liveForm .button {
+.mobile-sdk-poweredby{
+display:none;
+}
+.button {
 border-radius: 99px !important;
 }
 
