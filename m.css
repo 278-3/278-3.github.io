@@ -1,5 +1,9 @@
 /* custom CSS file - Steven Bloom Customer Success Manager sbloom@medallia.com */
 
+#liveForm .button {
+border-radius: 99px !important;
+}
+
 .neb-content md-radio-group div.radio md-radio-button ._md-on {
  background-color: #0072bc !important;
 }
@@ -17,6 +21,7 @@ neb-rating .neb-rating.stars label {
     background: url("https://assets.kampyle.com/ps/MedalliaDemo/4line/stars-Light-Grey.png") no-repeat; }
 neb-rating .neb-rating.bars label {
     background: url("https://assets.kampyle.com/ps/MedalliaDemo/4line/stripes-Light-Grey.png") no-repeat; }
+
 /* anchor text for Mobile SDK only*/
 .NPSanchorMobile .neb-content::before, .NPSanchorMobileB .neb-content::before{
    padding-top: 10px;
