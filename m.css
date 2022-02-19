@@ -1,5 +1,5 @@
 /* css test */
 
 #liveForm .kpl_builder .panel-footer .btn.submit-btn {
-border-radius:999px;
+color: #ff0000 !important;
 } 
