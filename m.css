@@ -7,3 +7,39 @@ button.new-mobile-button, .new-mobile-button {
 .mobile-sdk-poweredby {
 display:none !important;
 }
+
+.neb-rating-html-implementation neb-rating .neb-rating.numbers
+label.rating-label,
+ .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle
+label.rating-label,
+  .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare
+.neb-rating-value label.rating-label {
+  height: 29px; /* adjust height but add !important to activate it or this setting is ignored */
+  width: 29px; /* adjust width but add !important to activate it or this setting is ignored */ 
+  background: #D4D4D4 !important /* background color*/
+  color: #313139 !important' /* text color unselected */
+  font-weight: 400;
+  border-radius: 100%;
+  border: none;
+  
+}
+
+  .neb-rating-html-implementation neb-rating .neb-rating.numbers
+label.rating-label.on, .neb-rating-implementation neb-rating
+.neb-rating.numbersCircle label.rating-label.on,
+.neb-rating-html-implementation neb-rating .neb-rating.numbersSquare
+.neb-rating-value label.rating-label.on {
+  background: #2BA4A6 !important;
+  color: #FFF !important; 
+}
+
+.neb-rating-html-implementation neb-rating .neb-rating.numbers
+label.rating-label.hover, .neb-rating-implementation neb-rating
+.neb-rating.numbersCircle label.rating-label.hover,
+.neb-rating-html-implementation neb-rating .neb-rating.numbersSquare
+.neb-rating-value label.rating-label.hover {
+  background: #2BA4A6 !important;
+  color: #FFF !important; 
+}
+  
+  
