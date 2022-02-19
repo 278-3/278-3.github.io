@@ -1,8 +1,7 @@
 /* css test */
 
-.mobile-form-revamp .new-mobile-button{
-  border-radius:999px !important;
-  color: #ff0000 !important;
+.mobile-form-revamp, button.new-mobile-button, .new-mobile-button {
+  border-radius:999px !important; 
 } 
 
 .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.on{
@@ -15,3 +14,6 @@
     
 }
 
+.mobile-sdk-poweredby {
+display:none;
+}
