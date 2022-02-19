@@ -1,7 +1,7 @@
 /* css test */
 
-#liveForm .kpl_builder .panel-footer .btn.submit-btn .button-big{
-border-radius:999px !important;
+.button-big{
+  border-radius:999px !important;
   color: #ff0000 !important;
 } 
 
