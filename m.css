@@ -1,5 +1,10 @@
 /* css test */
 
+:root {
+    color-scheme: light dark;
+    font-family: Courier New !important;
+}
+
 button.new-mobile-button, .new-mobile-button {
   border-radius:999px !important; 
 } 
