@@ -2,15 +2,16 @@
 
 :root {
     color-scheme: light dark;
-    font-family: Courier New !important;
+    -- m1: red !important;
 }
 
 button.new-mobile-button, .new-mobile-button {
-  border-radius:999px !important; 
+border-radius:999px !important;
+color: var(--m1); 
 } 
 
 .mobile-sdk-poweredby {
-display:none !important;
+visibility:hidden !important;
 }
 
 .neb-rating-html-implementation neb-rating .neb-rating.numbers
