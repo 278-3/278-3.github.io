@@ -5,5 +5,5 @@
 } 
 
 .mobile-sdk-poweredby {
-display:none;
+display:none !important;
 }
