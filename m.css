@@ -4,16 +4,6 @@
   border-radius:999px !important; 
 } 
 
-.neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.on{
-    background: #2BA4A6 !important;
-}
-
-
-.neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.hover{
-    background: #2C8287 !important;
-    
-}
-
 .mobile-sdk-poweredby {
 display:none;
 }
