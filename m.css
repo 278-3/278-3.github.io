@@ -14,13 +14,10 @@ label.rating-label,
 label.rating-label,
   .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare
 .neb-rating-value label.rating-label {
-  height: 29px; /* adjust height but add !important to activate it or this setting is ignored */
-  width: 29px; /* adjust width but add !important to activate it or this setting is ignored */ 
-  background: #D4D4D4 !important /* background color*/
-  color: #313139 !important' /* text color unselected */
-  font-weight: 400;
-  border-radius: 100%;
-  border: none;
+   
+  background: #D4D4D4 !important; /* background color*/
+  color: #313139 !important; /* text color unselected */
+  border: none !important;
   
 }
 
