@@ -2,7 +2,7 @@
 
 :root {
     color-scheme: light dark;
-    -- m1: red !important;
+    -- m1: #ff0000 !important;
 }
 
 button.new-mobile-button, .new-mobile-button {
