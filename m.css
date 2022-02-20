@@ -1,6 +1,60 @@
+/* 
+	* 
+	* Berlingske Sans Regular
+	* Berlingske Sans Italic
+	* Berlingske Sans Demibold
+	* Berlingske Sans Demibold Italic
+	* Berlingske Sans
+	* Berlingske Sans Italic
+	*
+	*/
+
+@font-face {
+	font-family: 'Berlingske Sans';
+	src: url('https://hello.m.co/rs/512-ZYE-598/images/BerlingskeSans-Rg.woff2')format('woff2'), url('https://hello.m.co/rs/512-ZYE-598/images/BerlingskeSans-Rg.woff')format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Berlingske Sans Italic';
+	src: url('https://hello.m.co/rs/512-ZYE-598/images/BerlingskeSans-It.woff2')format('woff2'), url('https://hello.m.co/rs/512-ZYE-598/images/BerlingskeSans-It.woff')format('woff');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Berlingske Sans Demibold';
+	src: url('https://hello.m.co/rs/512-ZYE-598/images/BerlingskeSans-DBd.woff2')format('woff2'), url('https://hello.m.co/rs/512-ZYE-598/images/BerlingskeSans-DBd.woff')format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Berlingske Sans Demibold Italic';
+	src: url('https://hello.m.co/rs/512-ZYE-598/images/BerlingskeSans-DBdIt.woff2')format('woff2'), url('https://hello.m.co/rs/512-ZYE-598/images/BerlingskeSans-DBdIt.woff')format('woff');
+	font-weight: 600;
+	font-style: italic;
+}
+
+
+/* 
+	* 
+	* M Stencil Bold
+	*
+	*/
+
+@font-face {
+	font-family: 'M Stencil';
+	src: url('https://hello.m.co/rs/512-ZYE-598/images/MStencil-Bold.woff2') format('woff2'), url('https://hello.m.co/rs/512-ZYE-598/images/MStencil-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
 /* css test */
 
 :root {
+    font-family: Berlingske Sans, sans-serif !important;
     color-scheme: light dark;
     -- m1: #ff0000 !important;
 }
