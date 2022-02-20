@@ -53,15 +53,14 @@
 
 /* css test */
 
-:root {
-    font-family: Berlingske Sans, sans-serif !important;
-    color-scheme: light dark;
+:root, body, html, div {
+    font-family: "Berlingske Sans", sans-serif !important;
+    /*color-scheme: light dark;*/
     -- m1: #ff0000 !important;
 }
 
 button.new-mobile-button, .new-mobile-button {
-border-radius:999px !important;
-color: var(--m1); 
+border-radius:999px !important; 
 } 
 
 .mobile-sdk-poweredby {
