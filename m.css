@@ -88,3 +88,7 @@ input[type=range] {
     box-shadow: 0px 10px 20px rgba(30, 30, 36, 0.2);
     border-radius: 50px;
 }
+
+.mobile-sdk-poweredby{
+visibility:hidden;
+}
