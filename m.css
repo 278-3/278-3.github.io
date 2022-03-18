@@ -8,8 +8,8 @@
     --typography-fontFamily: font1;
     /* question text */
     --typography-headline-size: 15px;
-    --palette-typography-headline: #1E1E24;
-    --palette-typography-body: #1E1E24;
+    --palette-typography-headline: #FF0000;
+    --palette-typography-body: #FF0000;
     /* content text area, options, placeholders */
     --typography-body-size: 15px;
     --palette-typography-subHeadline: #CED0D7;
