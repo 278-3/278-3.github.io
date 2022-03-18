@@ -12,7 +12,8 @@
  --palette-core-canvas: #FFFFFF;   
  --palette-core-container: rgba(0, 0, 0, .05); 
  /* component background + opacity primary*/
- --palette-core-outline: rgba(18, 24, 38, .1);\n\t--palette-core-component-background: #F5F5F5;
+ --palette-core-outline: rgba(18, 24, 38, .1);
+ --palette-core-component-background: #F5F5F5;
  --palette-typography-body: #000000;
  --palette-typography-headline: rgba(0, 0, 0, 1);
  --palette-typography-subHeadline: rgba(0, 0, 0, 0.7);
@@ -45,7 +46,8 @@ html, body {
  justify-content: center;
  align-items: center;
  width: -webkit-fill-available;
- overflow-x: hidden;\n\tpadding: 0;
+ overflow-x: hidden;
+ padding: 0;
  margin: 0;
  background: var(--palette-core-canvas);
  font-weight: 400;
@@ -60,7 +62,8 @@ form {
  display: flex;
  flex-direction: column;
  justify-content: space-between;
- background: var( --palette-core-canvas);\n    min-height: 100vh;
+ background: var( --palette-core-canvas);
+ min-height: 100vh;
 }
 form main {
  flex: 0 0 auto;
