@@ -12,9 +12,9 @@
     --palette-typography-body: #FF0000;
     /* content text area, options, placeholders */
     --typography-body-size: 15px;
-    --palette-typography-subHeadline: #CED0D7;
+    --palette-typography-subHeadline: #FF0000;
     /* component placeholder, te */
-    --palette-typography-placeholder: #646473;
+    --palette-typography-placeholder:#FF0000;
     /* description/error/edge-labels */
     --typography-subHeadline-size: 15px;
     /* rating scale, radio options */
@@ -29,13 +29,13 @@
     /* content, options background */
     --palette-core-component-background: #ffffff;
     /* Rating, Star, Smiley, Radiobutton, checkbox selected color */
-    --palette-core-primary: #2BA4A6;
+    --palette-core-primary: #FF0000;
     /* Slider Thumb color */
     --palette-core-secondary: #ffffff;
     /* track left side color (smaller than selected value) */
-    --slider-track-active-color: #2BA4A6;
+    --slider-track-active-color: #FF0000;
     /* track right side color (greater than selected value) */
-    --slider-track-inactive-color: #EAF6F6;
+    --slider-track-inactive-color: #FF0000;
     --slider-border-color: transparent !important;
     /* vertical spacing between survey fields */
     --questions-spacing: 45px;
@@ -84,7 +84,7 @@ input[type=range] {
 .surveyBtn {
     font-size: 15px;
     line-height: 18px;
-    background: #2BA4A6;
+    background: #FF0000;
     box-shadow: 0px 10px 20px rgba(30, 30, 36, 0.2);
     border-radius: 50px;
 }
