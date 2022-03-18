@@ -71,3 +71,45 @@ form main {
 form main h2, form main label {
  max-width: 110vw;
 }
+
+textarea, input , button , select{
+ outline: none;
+ border: none;
+ -webkit-appearance: none;
+}
+select:focus {
+ outline: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+ font-weight:unset;
+ padding: 0; 
+ margin: 0;
+}
+
+._10o3Ogtkx0b1R7N7tOe-dr{
+ padding-bottom: 16px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+._3t4RX2DOABolTIc5y8WHk1{
+ font-size: 12px;
+ color: var(--palette-typography-poweredby);
+ margin-right: 4px;
+ letter-spacing: 0.2px;
+}
+._2Tbi7lNVIs6NppPxnQXuLw{
+ color: var(--palette-typography-poweredby);
+ text-decoration: none;
+ vertical-align: middle;
+}
+
+._2Jsq4ytAJ0j0ZeUMeutfA1 {
+ width: 64px;
+ height: 16px;
+ vertical-align: inherit;
+}
+                                
+
+
