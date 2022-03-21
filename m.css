@@ -1,6 +1,8 @@
 :root {
  --typography-fontFamily: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;    
- --typography-body-size: 16px; 
+ 
+ --typography-body-size: 15px; 
+ 
  /* content,options,placeholders, error */    
  --typography-headline-size: 20px; 
  --typography-subHeadline-size: 14px;
@@ -57,7 +59,7 @@ html, body {
  margin: 0;
  background: var(--palette-core-canvas);
  font-weight: 400;
- color: #444;
+ color: #0ff;
  -webkit-font-smoothing: antialiased;
 }
 * {
@@ -85,6 +87,7 @@ textarea, input , button , select{
 }
 select:focus {
  outline: none;
+ border-color: rgba(43, 164, 166, 1) !important;
 }
 
 h1,h2,h3,h4,h5,h6,p{
