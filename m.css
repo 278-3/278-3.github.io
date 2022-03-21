@@ -5,26 +5,32 @@
  --typography-headline-size: 20px; 
  --typography-subHeadline-size: 14px;
  /* description */    
- --palette-core-primary: #6200EE; 
+ --palette-core-primary: #646473; 
  /* checkbox, submit */   
- --palette-core-secondary: #6200EE61; 
+ 
+ --palette-core-secondary: #00FF00; 
  /* close,back */   
+ 
  --palette-core-canvas: #FFFFFF;   
  --palette-core-container: rgba(0, 0, 0, .05); 
  /* component background + opacity primary*/
+ 
  --palette-core-outline: rgba(18, 24, 38, .1);
  --palette-core-component-background: #F5F5F5;
- --palette-typography-body: #000000;
+ --palette-typography-body: rgba(30, 30, 36, 1)
  --palette-typography-headline: rgba(0, 0, 0, 1);
  --palette-typography-subHeadline: rgba(0, 0, 0, 0.7);
  --palette-typography-error: rgba(176, 0, 32, 1);
  --palette-typography-placeholder: rgba(18, 24, 38, .7);
- --palette-typography-poweredby: #2C3548;
+ --palette-typography-poweredby: #FF0000;
  --palette-typography-user-input: #000;
+ 
  --palette-typography-link: #2467C6; 
  /* link inside Label component */
- --palette-action-group-border: rgba(0, 0, 0, 0.6); 
+ 
+ --palette-action-group-border: rgba(65, 65, 78, 0.15);
  /* border for the checkbox and radio buttons */
+ 
  --palette-text-border-bottom: rgba(0, 0, 0, .08); 
  /* border bottom for the text area and text input in default state */
  --survey-padding: 40px 24px 8px;
