@@ -84,6 +84,7 @@ html, body {
 * {
  box-sizing: border-box;
 }
+
 form {
  margin: 0;
  display: flex;
@@ -95,8 +96,10 @@ form {
 form main {
  flex: 0 0 auto;
 }
+
 form main h2, form main label {
- max-width: 110vw;
+    font-weight: 700 !important;
+    max-width: 110vw;
 }
 
 textarea, input , button , select{
