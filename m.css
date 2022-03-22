@@ -1,47 +1,40 @@
 @import 'https://web-assets.m.co/fonts/subset.css';
 
 :root {
+ 
+ 
+ /*typography*/
+ 
  --typography-fontFamily: 'Berlingske Sans',sans-serif;    
- 
  --typography-body-size: 15px; 
- 
- /* content,options,placeholders, error */    
  --typography-headline-size: 15px; 
  --typography-subHeadline-size: 15px;
- /* description */  
+ 
+ /*colors*/
  
  --palette-core-primary: #2BA4A6;
- /* checkbox, submit */   
- 
  --palette-core-secondary: #ffffff;
- 
- /* close,back */   
- 
  --palette-core-canvas: #FFFFFF;   
-    
  --palette-core-container: rgba(0, 0, 0, .05); 
- /* component background + opacity primary*/
- 
  --palette-core-outline: none;
  --palette-core-component-background: #ffffff;
  --palette-typography-body: #1E1E24;
  --palette-typography-headline: #1E1E24;
  --palette-typography-subHeadline: #646473;
- --palette-typography-error: rgba(176, 0, 32, 1);
+ --palette-typography-error: #C64E50;
  --palette-typography-placeholder: #646473;
  /*--palette-typography-poweredby: #FF0000;*/
  --palette-typography-user-input: #1E1E24;
- 
  --palette-typography-link: #2467C6; 
- /* link inside Label component */
+ --palette-action-group-border: #2BA4A6;
  
- --palette-action-group-border: rgba(65, 65, 78, 0.15);
  /* border for the checkbox and radio buttons */
- 
  --palette-text-border-bottom: rgba(0, 0, 0, .08); 
+ 
  /* border bottom for the text area and text input in default state */
  --survey-padding: 40px 24px 8px;
  --survey-margin: 0;
+ 
  --margin-headline: 0 0 4px 0;
  --margin-subHeadline: 0 0 4px 0;
  --base-headlines-margin: 0 0 8px 0;
