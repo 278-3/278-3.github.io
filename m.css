@@ -24,6 +24,7 @@
  /* close,back */   
  
  --palette-core-canvas: #FFFFFF;   
+    
  --palette-core-container: rgba(0, 0, 0, .05); 
  /* component background + opacity primary*/
  
@@ -31,11 +32,11 @@
  --palette-core-component-background: #ffffff;
  --palette-typography-body: #1E1E24;
  --palette-typography-headline: #1E1E24;
- --palette-typography-subHeadline: #CED0D7;
+ --palette-typography-subHeadline: #646473;
  --palette-typography-error: rgba(176, 0, 32, 1);
  --palette-typography-placeholder: #646473;
  /*--palette-typography-poweredby: #FF0000;*/
- --palette-typography-user-input: #000;
+ --palette-typography-user-input: #1E1E24;
  
  --palette-typography-link: #2467C6; 
  /* link inside Label component */
@@ -103,7 +104,6 @@ form main h2{
 }
 
 form main h2, form main label {
-    
     max-width: 110vw;
 }
 
