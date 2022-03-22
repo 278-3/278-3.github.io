@@ -29,9 +29,10 @@
  --palette-action-group-border: #2BA4A6;
  
  /* border for the checkbox and radio buttons */
- --palette-text-border-bottom: rgba(0, 0, 0, .08); 
  
  /* border bottom for the text area and text input in default state */
+ --palette-text-border-bottom: rgba(65, 65, 78, 0.15); 
+ 
  --survey-padding: 40px 24px 8px;
  --survey-margin: 0;
  
@@ -53,7 +54,7 @@
  
 }
 html {
- min-height: 100%;
+ /*min-height: 100%;*/
 }
 html, body {
  font-family: var(--typography-fontFamily);
