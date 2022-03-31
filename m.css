@@ -119,11 +119,11 @@ input[type=checkbox]{
     border-radius: 0px !important;
 }
 
-input[type=checkbox]:checked{
+input[type="checkbox"]:checked{
     border-color: #ff00ff !important;
 }
 
-input[type=radio]{
+input[type="radio"]{
     border-color: #ffff00 !important;
 }
 
