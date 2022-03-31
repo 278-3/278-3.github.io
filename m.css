@@ -41,7 +41,6 @@
  --base-headlines-margin: 0 0 8px 0;
  --margin-validationError: 8px 0 0 0;
  --rating-squares-border-color: rgba(65, 65, 78, 0.15);
- --questions-spacing: 40px; 
  /* vertical spacing between survey fields */
  
  /*slider*/
@@ -49,7 +48,7 @@
   --slider-track-inactive-color: #EAF6F6;
   --slider-border-color: transparent !important;
  
- --questions-spacing: 45px;
+ --questions-spacing: 20px;
  --palette-typography-user-input: #1E1E24;
  
 }
@@ -96,20 +95,30 @@ form main h2, form main label {
     max-width: 110vw;
 }
 
+/* input types */
+
+
 textarea, input , button , select{
     border: 1px solid rgba(65, 65, 78, 0.15) !important;
     box-sizing: border-box !important;
     border-radius: 0px !important;
 }
 
+/*slider*/
 input[type=range] {
     border-color: transparent !important;
 }
 
-select:focus {
- outline: none;
- border-color: rgba(43, 164, 166, 1) !important;
+input[type=checkbox]{
+    border-color: pink !important;
+    border-radius: 0px !important;
 }
+
+input[type=radio]{
+    border-color: yellow !important;
+}
+
+
 
 h1,h2,h3,h4,h5,h6,p{
  font-weight:unset;
