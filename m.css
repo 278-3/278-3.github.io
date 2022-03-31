@@ -115,12 +115,20 @@ input[type=range] {
 }
 
 input[type=checkbox]{
-    border-color: pink !important;
+    border-color: #ff0000 !important;
     border-radius: 0px !important;
 }
 
+input[type=checkbox]:checked{
+    border-color: #ff00ff !important;
+}
+
 input[type=radio]{
-    border-color: yellow !important;
+    border-color: #ffff00 !important;
+}
+
+input[type=radio]:checked{
+    border-color: #0000ff !important;
 }
 
 
