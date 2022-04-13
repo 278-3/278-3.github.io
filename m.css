@@ -7,7 +7,6 @@
 
 :root {
  
- 
  /*typography*/
  
  --typography-fontFamily: 'Berlingske Sans',sans-serif;    
@@ -17,7 +16,8 @@
  
  /*colors*/
  
- --palette-core-primary: #2BA4A6;
+ --palette-core-primary: #FF0000;
+ /*--palette-core-primary: #2BA4A6;*/
  --palette-core-secondary: #ffffff;
  --palette-core-canvas: #FFFFFF;   
  --palette-core-container: rgba(0, 0, 0, .05); 
@@ -28,9 +28,8 @@
  --palette-typography-subHeadline: #646473;
  --palette-typography-error: #C64E50;
  --palette-typography-placeholder: #646473;
- /*--palette-typography-poweredby: #FF0000;*/
  --palette-typography-user-input: #1E1E24;
- --palette-typography-link: #2467C6; 
+ --palette-typography-link: #2C8287; 
  --palette-action-group-border: #2BA4A6;
  
  /* border for the checkbox and radio buttons */
@@ -45,7 +44,8 @@
  --margin-subHeadline: 0 0 4px 0;
  --base-headlines-margin: 0 0 8px 0;
  --margin-validationError: 8px 0 0 0;
- --rating-squares-border-color: rgba(65, 65, 78, 0.15);
+ --rating-squares-border-color: #2BA4A6;
+    
  /* vertical spacing between survey fields */
  
  /*slider*/
