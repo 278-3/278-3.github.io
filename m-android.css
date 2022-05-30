@@ -25,7 +25,7 @@
     /* survey background */
     --palette-core-canvas: #FFFFFF;
     /* default component outline */
-    /*--palette-core-outline: none;*/
+    --palette-core-outline: none;
     /* content, options background */
     --palette-core-component-background: #ffffff;
     /* Rating, Star, Smiley, Radiobutton, checkbox selected color */
@@ -78,7 +78,7 @@ textArea, input, select{
 }
 
 input[type=range] {
-    border-color: transparent !important;
+    /*border-color: transparent !important;*/
 }
 
 /*.surveyBtn {
