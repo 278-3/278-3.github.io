@@ -25,9 +25,11 @@
     /* survey background */
     --palette-core-canvas: #FFFFFF;
     /* default component outline */
-    --palette-core-outline: none;
+    /*--palette-core-outline: none;*/
+    
     /* content, options background */
-    --palette-core-component-background: #ffffff;
+    --palette-core-component-background: #2BA4A6;
+    
     /* Rating, Star, Smiley, Radiobutton, checkbox selected color */
     --palette-core-primary: #2BA4A6;
     /* Slider Thumb color */
