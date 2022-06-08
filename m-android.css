@@ -28,12 +28,12 @@
     /*--palette-core-outline: none;*/
     
     /* content, options background */
-    --palette-core-component-background: #2BA4A6;
+    --palette-core-component-background: #ffffff;
     
     /* Rating, Star, Smiley, Radiobutton, checkbox selected color */
     --palette-core-primary: #2BA4A6;
     /* Slider Thumb color */
-    --palette-core-secondary: #ffffff;
+    --palette-core-secondary: #1E1E24;
     /* track left side color (smaller than selected value) */
     --slider-track-active-color: #2BA4A6;
     /* track right side color (greater than selected value) */
@@ -44,6 +44,8 @@
     /* Textarea, select and textinput colors */
     --palette-typography-user-input: #1E1E24;
 }
+
+
 
 div output{
     border: 1px solid rgba(65, 65, 78, 0.15) !important;
