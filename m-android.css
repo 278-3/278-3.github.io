@@ -25,7 +25,7 @@
     /* survey background */
     --palette-core-canvas: #FFFFFF;
     /* default component outline */
-    --palette-core-outline: none;
+    /*--palette-core-outline: none;*/
     
     /* content, options background */
     --palette-core-component-background: #ffffff;
